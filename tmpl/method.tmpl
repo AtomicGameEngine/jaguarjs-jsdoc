@@ -12,9 +12,6 @@ var self = this;
         </h4>
     
         <?js if (data.meta) {?>
-        <div class="tag-source">
-            <?js= self.linkto(meta.filename) ?>, <?js= self.linkto(meta.filename, 'line ' + meta.lineno, null, 'line' + meta.lineno) ?>
-        </div>
         <?js } ?>
     </div>
 
